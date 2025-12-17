@@ -37,6 +37,7 @@ RUN apt-get update \
     libtelnet-dev libvncserver-dev \
     libpulse-dev libssl-dev libvorbis-dev libwebp-dev libwebsockets-dev \
     ghostscript build-essential libreadline-dev \
+    haveged \
   && rm -rf /var/lib/apt/lists/*
 
 # Download libssh2 and postgresql source
