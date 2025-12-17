@@ -1,4 +1,4 @@
-FROM jwetzell/guacamole:base
+FROM teoks/guacamole:base
 
 WORKDIR ${GUACAMOLE_HOME}
 
